@@ -5,25 +5,29 @@
     padding: 0px;
 }
 html, body{
-    background-color: black;
+
     color: aliceblue;
     width: 100vw;
     height: 100vh;
+}
+body{
+    background: url(https://img.freepik.com/fotos-gratis/parede-ripa_1249-94.jpg?w=740&t=st=1674154470~exp=1674155070~hmac=e5e24c023981c12fb0e99f00f09a89af0673926058af1f7607eba211f8cda671) no-repeat;
+    background-size: cover;
 }
 .verde{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: green;
+   
 }
 .azul{
     position: absolute;
     
-    width: 300px;
-    height: 640px;
-    top: 50%;
+    width: 285px;
+    height: 547px;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: blue url(smartphone-6891632_640.png) no-repeat;
+    background: url(phone.png.png) no-repeat;
 
 }
