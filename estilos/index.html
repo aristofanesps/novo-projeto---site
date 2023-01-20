@@ -8,23 +8,63 @@
     <title>Document</title>
 </head>
 <style>
+    
     iframe{
         position: relative;
         top: 8%;
         left: 10%;
         border-radius: 16px;
+    }
+    .icones a img{
+        width: 50px;
+        height: 50px;
+        margin: 9px;
+        border-radius: 50%; 
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.808);
+        box-sizing: border-box;
+    }
+    .icones{
+        text-align: right;
+
+    }
+    .icones a img:hover{
+        border: 2px solid whitesmoke;
+        transform: translate(-3px, -3px); <!--serve pra animar, movimentar ao passar o mause-->
+    }
+    .titulo{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        left: 15%;
+        top: 15%;
         
     }
+    
+ 
+
 </style>
 
 <body>
+    <div class="titulo">
+        <h2>se vc observar, ao clicar nos icones alguns não abrem o site dentro do iframe por questões de segurança dos próprios sites</h2>
+    </div>
     <div class="verde">
 
     </div>
     <div class="azul">
-        <iframe src="file:///C:/Users/Ary/Documents/curso%20html/curso-html/novo-projeto---site/home.html" frameborder="0" height="480px" width="245px"></iframe>
+        <iframe src="file:///C:/Users/Ary/Documents/curso%20html/curso-html/novo-projeto---site/home.html" name="tela" frameborder="0" height="480px" width="245px"></iframe>
 
     </div>
+
+    <div class="icones">
+        <a href="https://www.vagalume.com.br/" target="tela"><img src="musicas.png" alt=""></a><br>
+        <a href="https://www.facebook.com/" target="tela"><img src="facebook-icon.png" alt=""></a><br>
+        <a href="https://www.instagram.com/" target="tela"><img src="Instagram-Icon.png" alt=""></a><br>
+        <a href="https://www.whatsapp.com/?lang=pt_br" target="tela"><img src="ico-zap.png" alt=""></a>
+
+    </div>
+
+   
     
 </body>
 </html>

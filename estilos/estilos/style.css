@@ -31,3 +31,8 @@ body{
     background: url(phone.png.png) no-repeat;
 
 }
+.icones{
+    position: absolute;
+    top: 10%;
+    left: 70%;
+}
